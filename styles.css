@@ -1,0 +1,779 @@
+ 
+ body {
+	margin: 0;
+	padding: 0;
+	background-color: #eeeeee;
+ }
+ 
+ #background 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: relative; 
+	 margin-left: auto; 
+	 margin-right: auto; 
+	 width: 1300px;
+	 height: 980px; 
+	 overflow: hidden;
+	 z-index:0;
+	} 
+
+ #slider_fond 
+{ 
+	 left: -3px; 
+	 top: 51px; 
+	 position: absolute; 
+	 width: 1304px;
+	 height: 410px;
+	 z-index:2;
+} 
+
+ #slider
+{ 
+	 left: 0px; 
+	 top: 54px; 
+	 position: absolute; 
+	 width: 1300px;
+	 height: 406px;
+	 z-index:3;
+} 
+
+ #bouton1 
+{ 
+	 left: 98px; 
+	 top: 196px; 
+	 position: absolute; 
+	 width: 200px;
+	 height: 30px;
+	 z-index:4;
+} 
+
+ #bouton1_text 
+{ 
+	 left: 107px; 
+	 top: 205px; 
+	 position: absolute; 
+	 width: 182px;
+	 height: 15px;
+	 z-index:5;
+	 cursor: pointer;
+} 
+
+
+ #bouton2 
+{ 
+	 left: 306px; 
+	 top: 196px; 
+	 position: absolute; 
+	 width: 167px;
+	 height: 30px;
+	 z-index:6;
+} 
+ 
+
+ #bouton2 
+{ 
+	 left: 306px; 
+	 top: 196px; 
+	 position: absolute; 
+	 width: 167px;
+	 height: 30px;
+	 z-index:8;
+} 
+
+ #bouton2_text 
+{ 
+	 left: 318px; 
+	 top: 205px; 
+	 position: absolute; 
+	 width: 146px;
+	 height: 15px;
+	 z-index:9;
+	 cursor: pointer;
+} 
+
+ #slogan 
+{ 
+	 left: 99px; 
+	 top: 99px; 
+	 position: absolute; 
+	 width: 593px;
+	 height: 29px;
+	 z-index:10;
+} 
+
+ #slogan h1
+{ 
+	 position: absolute; 
+	 width: 593px;
+	 height: 29px;
+	 z-index:10;
+	 font-family:'Arial Black';
+	 color: #eeeeee;
+	 top: -30px;
+} 
+
+ #text_slider 
+{ 
+	 left: 100px; 
+	 top: 148px; 
+	 position: absolute; 
+	 width: 772px;
+	 height: 32px;
+	 z-index:11;
+} 
+
+ #text_slider h1
+{ 
+	 position: absolute; 
+	 width: 772px;
+	 height: 32px;
+	 z-index:11;
+	 font-family:'Arial Regular';
+	 font-size: 15px;
+	 color: #eeeeee;
+	 top: -15px;
+} 
+
+ #cache 
+{ 
+	 left: -2px; 
+	 top: 292px; 
+	 position: absolute; 
+	 width: 1303px;
+	 height: 225px;
+	 z-index:12;
+} 
+
+
+ #APROPOS 
+{ 
+	 left: 99px; 
+	 top: 310px; 
+	 position: absolute; 
+	 width: 101px;
+	 height: 15px;
+	 z-index:13;
+} 
+
+ #APROPOS h1
+{ 
+	 top: 310px; 
+	 position: absolute; 
+	 width: 101px;
+	 height: 15px;
+	 z-index:13;
+	  font-family:'Arial Black';
+	 font-size: 15px;
+	 color: #3498db;
+	 top: -14px;
+}
+ #ACTUALITE 
+{ 
+	 left: 875px; 
+	 top: 310px; 
+	 position: absolute; 
+	 width: 112px;
+	 height: 15px;
+	 z-index:15;
+}
+
+ #ACTUALITE h1 
+{ 
+	 top: 310px; 
+	 position: absolute; 
+	 width: 112px;
+	 height: 15px;
+	 z-index:15;
+ 	font-family:'Arial Black';
+	 font-size: 15px;
+	 color: #3498db;
+	 top: -14px;
+}
+
+ #NOSSERVICES_1 
+{ 
+	 left: 443px; 
+	 top: 310px; 
+	 position: absolute; 
+	 width: 146px;
+	 height: 15px;
+	 z-index:17;
+} 
+
+ #NOSSERVICES_1 h1 
+{ 
+	 top: 310px; 
+	 position: absolute; 
+	 width: 146px;
+	 height: 15px;
+	 z-index:17;
+	  font-family:'Arial Black';
+	 font-size: 15px;
+	 color: #3498db;
+	 top: -14px;
+} 
+ #barre1
+{ 
+	 left: 204px; 
+	 top: 309px; 
+	 position: absolute; 
+	 width: 231px;
+	 height: 16px;
+	 z-index:14;
+} 
+
+ 
+
+ #barre2
+{ 
+	 left: 991px; 
+	 top: 309px; 
+	 position: absolute; 
+	 width: 210px;
+	 height: 16px;
+	 z-index:16;
+} 
+
+
+
+ #barre3
+{ 
+	 left: 593px; 
+	 top: 309px; 
+	 position: absolute; 
+	 width: 274px;
+	 height: 16px;
+	 z-index:18;
+} 
+
+ #informations_0 h1 
+{ 
+	 left: 100px; 
+	 top: 330px; 
+	 position: absolute; 
+	 width: 315px;
+	 height: 50px;
+	 z-index:19;
+	 font-family:'Arial Regular';
+	 font-size: 15px;
+	 color:#3498db;
+} 
+
+ 
+ #informations_2 h1 
+{ 
+	 left: 873px; 
+	 top: 330px; 
+	 position: absolute; 
+	 width: 315px;
+	 height: 50px;
+	 z-index:21;
+	 font-family:'Arial Regular';
+	 font-size: 15px;
+	 color:#3498db;
+} 
+
+ 
+
+ #informations_4 h1 
+{ 
+	 left: 443px; 
+	 top: 330px; 
+	 position: absolute; 
+	 width: 418px;
+	 height: 50px;
+	 z-index:23;
+	 font-family:'Arial Regular';
+	 font-size: 15px;	 
+	 color:#3498db;
+} 
+
+
+#NOSPROJETS 
+{ 
+	 left: 98px; 
+	 top: 492px; 
+	 position: absolute; 
+	 width: 139px;
+	 height: 15px;
+	 z-index:26;
+} 
+
+ #NOSPROJETS h1
+{ 
+	 top: 492px; 
+	 position: absolute; 
+	 width: 139px;
+	 height: 15px; 
+	 z-index:10;
+	 font-family:'Arial Black';
+	 color: #3498db;
+	 font-size: 15px;
+	 top: -15px;
+}
+
+ #barre4
+{ 
+	 left: 244px; 
+	 top: 491px; 
+	 position: absolute; 
+	 width: 953px;
+	 height: 16px;
+	 z-index:27;
+} 
+
+ #contenu_projets 
+{ 
+	 left: 99px; 
+	 top: 536px; 
+	 position: absolute; 
+	 width: 211px;
+	 height: 376px;
+	 z-index:28;
+} 
+
+ #contenu_projets1 
+{ 
+	 left: 320px; 
+	 top: 536px; 
+	 position: absolute; 
+	 width: 212px;
+	 height: 376px;
+	 z-index:29;
+} 
+
+ #contenu_projets2 
+{ 
+	 left: 989px; 
+	 top: 536px; 
+	 position: absolute; 
+	 width: 211px;
+	 height: 376px;
+	 z-index:30;
+} 
+
+ #contenu_projets3 
+{ 
+	 left: 544px; 
+	 top: 536px; 
+	 position: absolute; 
+	 width: 212px;
+	 height: 376px;
+	 z-index:31;
+} 
+
+ #contenu_projets4 
+{ 
+	 left: 766px; 
+	 top: 536px; 
+	 position: absolute; 
+	 width: 212px;
+	 height: 376px;
+	 z-index:32;
+} 
+
+ #miniature 
+{ 
+	 left: 108px; 
+	 top: 548px; 
+	 position: absolute; 
+	 width: 191px;
+	 height: 136px;
+	 z-index:33;
+} 
+
+ #miniature1 
+{ 
+	 left: 330px; 
+	 top: 548px; 
+	 position: absolute; 
+	 width: 191px;
+	 height: 136px;
+	 z-index:34;
+} 
+
+ #miniature2 
+{ 
+	 left: 555px; 
+	 top: 548px; 
+	 position: absolute; 
+	 width: 191px;
+	 height: 136px;
+	 z-index:35;
+} 
+
+ #miniature3 
+{ 
+	 left: 777px; 
+	 top: 548px; 
+	 position: absolute; 
+	 width: 191px;
+	 height: 136px;
+	 z-index:36;
+} 
+
+ #miniature4 
+{ 
+	 left: 999px; 
+	 top: 548px; 
+	 position: absolute; 
+	 width: 191px;
+	 height: 136px;
+	 z-index:37;
+} 
+
+ #projets_1 
+{ 
+	 left: 109px; 
+	 top: 697px; 
+	 position: absolute; 
+	 width: 188px;
+	 height: 137px;
+	 z-index:38;
+} 
+
+ #projets_1 h1
+{ 
+	 top: 697px; 
+	 position: absolute; 
+	 width: 188px;
+	 height: 137px;
+	 z-index:38;
+	 font-family:'Arial Regular';
+	 font-size: 15px;
+	 color: #eeeeee;
+	 top: -15px;
+
+} 
+
+ #projets_2 
+{ 
+	 left: 333px; 
+	 top: 697px; 
+	 position: absolute; 
+	 width: 188px;
+	 height: 137px;
+	 z-index:39;
+} 
+
+ #projets_2 h1 
+{ 
+	 top: 697px; 
+	 position: absolute; 
+	 width: 188px;
+	 height: 137px;
+	 z-index:38;
+	 font-family:'Arial Regular';
+	 font-size: 15px;
+	 color: #eeeeee;
+	 top: -15px;
+} 
+
+ #projets_3 
+{ 
+	 left: 558px; 
+	 top: 697px; 
+	 position: absolute; 
+	 width: 188px;
+	 height: 137px;
+	 z-index:40;
+} 
+
+ #projets_3	h1
+{ 
+	 top: 697px; 
+	 position: absolute; 
+	 width: 188px;
+	 height: 137px;
+	 z-index:38;
+	 font-family:'Arial Regular';
+	 font-size: 15px;
+	 color: #eeeeee;
+	 top: -15px;
+} 
+
+ #projets_4 
+{ 
+	 left: 781px; 
+	 top: 697px; 
+	 position: absolute; 
+	 width: 188px;
+	 height: 137px;
+	 z-index:41;
+} 
+
+ #projets_4 h1 
+{ 
+	 top: 697px; 
+	 position: absolute; 
+	 width: 188px;
+	 height: 137px;
+	 z-index:38;
+	 font-family:'Arial Regular';
+	 font-size: 15px;
+	 color: #eeeeee;
+	 top: -15px;
+} 
+
+ #projets_5 
+{ 
+	 left: 1002px; 
+	 top: 697px; 
+	 position: absolute; 
+	 width: 188px;
+	 height: 137px;
+	 z-index:42;
+} 
+
+ #projets_5 h1 
+{ 
+	 top: 697px; 
+	 position: absolute; 
+	 width: 188px;
+	 height: 137px;
+	 z-index:38;
+	 font-family:'Arial Regular';
+	 font-size: 15px;
+	 color: #eeeeee;
+	 top: -15px;
+} 
+
+
+
+ #projets 
+{ 
+	 left: 130px; 
+	 top: 858px; 
+	 position: absolute; 
+	 width: 138px;
+	 height: 12px;
+	 z-index:44;
+} 
+
+ #Rectangle2copie_3 
+{ 
+	 left: 331px; 
+	 top: 848px; 
+	 position: absolute; 
+	 width: 191px;
+	 height: 30px;
+	 z-index:45;
+} 
+
+ #projets1 
+{ 
+	 left: 354px; 
+	 top: 858px; 
+	 position: absolute; 
+	 width: 138px;
+	 height: 12px;
+	 z-index:46;
+} 
+
+ #Rectangle2copie_4 
+{ 
+	 left: 555px; 
+	 top: 848px; 
+	 position: absolute; 
+	 width: 191px;
+	 height: 30px;
+	 z-index:47;
+} 
+
+ #projets2 
+{ 
+	 left: 578px; 
+	 top: 858px; 
+	 position: absolute; 
+	 width: 138px;
+	 height: 12px;
+	 z-index:48;
+} 
+
+ #projets3 
+{ 
+	 left: 799px; 
+	 top: 858px; 
+	 position: absolute; 
+	 width: 138px;
+	 height: 12px;
+	 z-index:50;
+} 
+
+ #projets4 
+{ 
+	 left: 1021px; 
+	 top: 858px; 
+	 position: absolute; 
+	 width: 138px;
+	 height: 12px;
+	 z-index:52;
+} 
+
+ #voir_projets 
+{ 
+	 left: 988px; 
+	 top: 925px; 
+	 position: absolute; 
+	 width: 213px;
+	 height: 33px;
+	 z-index:53;
+} 
+
+ #footer h1
+{ 
+	 left: 98px; 
+	 top: 925px; 
+	 position: absolute; 
+	 width: 879px;
+	 height: 33px;
+	 z-index:54;
+	 font-size: 10px;
+} 
+
+ 
+
+ #voir_projets_texte 
+{ 
+	 left: 1004px; 
+	 top: 936px; 
+	 position: absolute; 
+	 width: 183px;
+	 height: 10px;
+	 z-index:56;
+} 
+
+
+
+ #menu
+{ 
+	 left: -1px; 
+	 top: -2px; 
+	 position: absolute; 
+	 width: 1303px;
+	 height: 57px;
+	 z-index:57;
+	 background-image: url('images/menu.png');
+	 background-repeat:repeat-x;
+} 
+
+ #logo 
+{ 
+	 left: 100px; 
+	 top: 17px; 
+	 position: absolute; 
+	 width: 333px;
+	 height: 22px;
+	 z-index:58;
+} 
+
+
+
+ #ACCUEIL 
+{ 
+	 top: 20px; 
+	 position: absolute; 
+	 width: 90px;
+	 height: 15px;
+	 z-index:60;
+	 cursor: pointer;
+} 
+
+ #ACCUEIL h1
+{ 
+	 left: 882px; 
+	 top: -20px; 
+	 position: absolute; 
+	 width: 90px;
+	 height: 15px;
+	 z-index:60;
+	 cursor: pointer;
+	 font-family: 'Arial Black';
+	 font-size: 20px;
+	 color: #eeeeee;
+
+} 
+
+ #ACCUEIL:hover
+{ 
+	 left: 882px; 
+	 top: -20px; 
+	 position: absolute; 
+	 width: 90px;
+	 height: 15px;
+	 z-index:60;
+	 cursor: pointer;
+	 font-family: 'Arial Black';
+	 font-size: 20px;
+	 color: #eeeeee;
+opacity: 0.5;
+} 
+
+
+ #PROJETS 
+{ 
+	 left: 993;
+	 top: 20px; 
+	 position: absolute; 
+	 width: 92px;
+	 height: 15px;
+	 z-index:62;
+	 cursor: pointer;
+} 
+
+ #PROJETS h1
+{ 
+	 left: 993px; 
+	 top: -20px; 
+	 position: absolute; 
+	 width: 90px;
+	 height: 15px;
+	 z-index:60;
+	 cursor: pointer;
+	 font-family: 'Arial Black';
+	 font-size: 20px;
+	 color: #eeeeee;
+
+} 
+ #CONTACT 
+{ 
+	 left: 1103px; 
+	 top: 20px; 
+	 position: absolute; 
+	 width: 97px;
+	 height: 15px;
+	 z-index:64;
+	 cursor: pointer;
+} 
+
+ #CONTACT h1
+{ 
+	 top: -20px; 
+	 position: absolute; 
+	 width: 90px;
+	 height: 15px;
+	 z-index:60;
+	 cursor: pointer;
+	 font-family: 'Arial Black';
+	 font-size: 20px;
+	 color: #eeeeee;
+
+} 
+
+ 
+#projets_page{
+
+	top: 100px;
+}
+
+#contact{
+
+	padding:50px;
+	 left: -50px; 
+	 top: 230px; 
+	 position: absolute; 
+	 height: 15px;
+	 z-index:17;
+	 color: #3498db;
+}
