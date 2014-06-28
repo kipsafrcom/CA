@@ -56,10 +56,8 @@
 
 <h1>Contact : </h1>
 
-<p>Veuillez nous envoyez un E-Mail à l'adresse suivante ou remplier ce formulaire : </p>
-
-</div>
-
+<iframe src="https://docs.google.com/forms/d/1_o6--78BXQFVxSlma0Uz14WrlkUzD4B8M3vrXc01w3c/viewform?embedded=true" width="1300" height="600" frameborder="0" marginheight="0" marginwidth="0">Chargement en cours...</iframe></div>
+<p></p>
 </body>
 
 
